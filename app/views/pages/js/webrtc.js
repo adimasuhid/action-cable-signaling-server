@@ -18,7 +18,7 @@ let xirsysIceCreds = JSON.parse(
 xirsysIceCreds = JSON.parse(xirsysIceCreds)["v"];
 
 const constraints = {
-  audio: false,
+  audio: true,
   video: true
 };
 
