@@ -16,7 +16,7 @@ let xirsysIceCreds = JSON.parse(
   document.getElementById("xirsys-creds").dataset.xirsys
 );
 xirsysIceCreds = JSON.parse(xirsysIceCreds)["v"];
-xirsysIceCreds = ice;
+//xirsysIceCreds = ice;
 
 const constraints = {
   audio: true,
